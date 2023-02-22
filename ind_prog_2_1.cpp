@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <Header1.h>
+#include <ind_prog_2_1.h>
 
 bool tringle::exst_tr(double a, double b, double c) {
 	if (a + b > c && a + c > b && b + c > a) {
