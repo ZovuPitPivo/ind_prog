@@ -15,10 +15,10 @@ figure::figure(float x1, float x2, float x3, float x4, float y1, float y2, float
 void figure::show() {
     float a = sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2)), b = sqrt((x2 - x3) * (x2 - x3) + (y2 - y3) * (y2 - y3)),
         c = sqrt((x3 - x4) * (x3 - x4) + (y3 - y4) * (y3 - y4)), d = sqrt((x4 - x1) * (x4 - x1) + (y4 - y1) * (y4 - y1));
-    std::cout << "Ñòîðîíà A: " << a;
-    std::cout << "Ñòîðîíà B: " << b;
-    std::cout << "Ñòîðîíà C: " << c;
-    std::cout << "Ñòîðîíà D: " << d;
+    std::cout << "Сторона A: " << a;
+    std::cout << "Сторона B: " << b;
+    std::cout << "Сторона C: " << c;
+    std::cout << "Сторона D: " << d;
 }
 bool figure::is_prug() {
     float a, float d;
