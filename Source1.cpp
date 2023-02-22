@@ -4,9 +4,9 @@
 
 bool tringle::exst_tr(double a, double b, double c) {
 	if (a + b > c && a + c > b && b + c > a) {
-		std :: cout << "Òğåóãîëüíèê ñóùåñòâóåò";
+		std :: cout << "Ğ¢Ñ€ĞµÑƒĞ³Ğ¾Ğ»ÑŒĞ½Ğ¸Ğº ÑÑƒÑ‰ĞµÑÑ‚Ğ²ÑƒĞµÑ‚";
 	}else {
-		std :: cout << "Òğåóãîëüíèê íå ñóùåñòâóåò";
+		std :: cout << "Ğ¢Ñ€ĞµÑƒĞ³Ğ¾Ğ»ÑŒĞ½Ğ¸Ğº Ğ½Ğµ ÑÑƒÑ‰ĞµÑÑ‚Ğ²ÑƒĞµÑ‚";
 	}
 }
 void tringle::set(a1, b1, c1) {
@@ -15,9 +15,9 @@ void tringle::set(a1, b1, c1) {
 	c = c1;
 }
 void tringle::show() {
-	std::cout << "1 ñòîğîíà: " << a << endl;
-	std::cout << "2 ñòîğîíà: " << b << endl;
-	std::cout << "3 ñòîğîíà: " << c << endl;
+	std::cout << "1 ÑÑ‚Ğ¾Ñ€Ğ¾Ğ½Ğ°: " << a << endl;
+	std::cout << "2 ÑÑ‚Ğ¾Ñ€Ğ¾Ğ½Ğ°: " << b << endl;
+	std::cout << "3 ÑÑ‚Ğ¾Ñ€Ğ¾Ğ½Ğ°: " << c << endl;
 }
 double tringle::perimetr() {
 	double P = a + b + c;
