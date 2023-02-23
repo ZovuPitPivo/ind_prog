@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <Hind_prog_2_3.h>
+#include "ind_prog_2_3.h"
 
 figure::figure(float x1, float x2, float x3, float x4, float y1, float y2, float y3, float y4) {
     this->x1 = x1;
