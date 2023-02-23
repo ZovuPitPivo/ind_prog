@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <Header2.h>
+#include <ind_prog_2_2.h>
 
 circle::circle(float R, float x, float y) {
 	this->R = R;

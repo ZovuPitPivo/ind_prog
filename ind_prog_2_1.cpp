@@ -1,12 +1,12 @@
 #include <iostream>
 #include <cmath>
-#include <Header1.h>
+#include <ind_prog_2_1.h>
 
 bool tringle::exst_tr(double a, double b, double c) {
 	if (a + b > c && a + c > b && b + c > a) {
-		std :: cout << "Òðåóãîëüíèê ñóùåñòâóåò";
+		std :: cout << "Ð¢Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸Ðº ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚";
 	}else {
-		std :: cout << "Òðåóãîëüíèê íå ñóùåñòâóåò";
+		std :: cout << "Ð¢Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸Ðº Ð½Ðµ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚";
 	}
 }
 void tringle::set(a1, b1, c1) {
@@ -15,9 +15,9 @@ void tringle::set(a1, b1, c1) {
 	c = c1;
 }
 void tringle::show() {
-	std::cout << "1 ñòîðîíà: " << a << endl;
-	std::cout << "2 ñòîðîíà: " << b << endl;
-	std::cout << "3 ñòîðîíà: " << c << endl;
+	std::cout << "1 ÑÑ‚Ð¾Ñ€Ð¾Ð½Ð°: " << a << endl;
+	std::cout << "2 ÑÑ‚Ð¾Ñ€Ð¾Ð½Ð°: " << b << endl;
+	std::cout << "3 ÑÑ‚Ð¾Ñ€Ð¾Ð½Ð°: " << c << endl;
 }
 double tringle::perimetr() {
 	double P = a + b + c;
