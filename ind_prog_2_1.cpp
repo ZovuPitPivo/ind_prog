@@ -3,11 +3,7 @@
 #include <ind_prog_2_1.h>
 
 bool tringle::exst_tr(double a, double b, double c) {
-	if (a + b > c && a + c > b && b + c > a) {
-		std :: cout << "Треугольник существует";
-	}else {
-		std :: cout << "Треугольник не существует";
-	}
+	return ((a + b > c) && (a + c > b) && (b + c > a));
 }
 void tringle::set(a1, b1, c1) {
 	a = a1;
