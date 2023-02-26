@@ -2,10 +2,10 @@
 #include <cmath>
 #include "ind_prog_2_1.h"
 
-bool tringle::exst_tr(double a, double b, double c) {
+bool tringle::exst_tr() {
 	return ((a + b > c) && (a + c > b) && (b + c > a));
 }
-void tringle::set(a1, b1, c1) {
+void tringle::set(double a1, double b1, double c1) {
 	a = a1;
 	b = b1;
 	c = c1;
