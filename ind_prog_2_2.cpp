@@ -17,7 +17,7 @@ void circle::set_circle(float R1, float x1, float y1) {
 	this -> x = x1;
 	this -> y = y1;
 }
-float circle::square(float R) {
+float circle::square() {
 	float P = 3.14153;
 	return P * R * R;
 }
