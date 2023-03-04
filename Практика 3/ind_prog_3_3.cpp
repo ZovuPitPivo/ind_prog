@@ -2,12 +2,13 @@
 #include "ind_prog_3_2.h"
 
 rational::rational(int a, int b) {
-	if (b1 != 0) {
+	if (b != 0) {
 		this->a = a;
 		this->b = b;
-	}
-	else {
-		std::cout << "Òàêàÿ äðîáü íå ìîæåò ñóùåñòâîâàòü" << endl;
+		return true;
+	}else {
+		std::cout << "Ð¢Ð°ÐºÐ°Ñ Ð´Ñ€Ð¾Ð±ÑŒ Ð½Ðµ Ð¼Ð¾Ð¶ÐµÑ‚ ÑÑƒÑ‰ÐµÑÑ‚Ð²Ð¾Ð²Ð°Ñ‚ÑŒ" << endl;
+		return false;
 	}
 	if (a > b) {
 		a = a - (b * (a / b));
@@ -17,11 +18,23 @@ rational::rational(int a, int b) {
 		a = 1;
 	}
 }
-
 void rational::set(int a1, int b1) {
-	a = a1;
-	b = b1;
+	if (b1 != 0) {
+		a = a1;
+		b = b1;
+	}
+	else {
+		std::cout << "Ð¢Ð°ÐºÐ¾Ð¹ Ð´Ñ€Ð¾Ð±Ð¸ Ð±Ñ‹Ñ‚ÑŒ Ð½Ðµ Ð¼Ð¾Ð¶ÐµÑ‚!!!" << endl;
+		return false;
+	}
+	if (a > b) {
+		a = a - (b * (a / b));
+	}
+	if (b % a == 0) {
+		b = b / a;
+		a = 1;
+	}
 }
 void rational::show() {
-	std::cout << a << "/" << b << endl;
+	std :: cout << a << "/" << b << endl;
 }
