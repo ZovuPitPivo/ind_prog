@@ -14,13 +14,13 @@ void kvad_ur::set(double a1, double b1; double c1) {
 
 double kvad_ur::find_x() {
 	if (D < 0) {
-		std::cout << "Êîðíåé íåò!!\n";
+		std::cout << "ÐšÐ¾Ñ€Ð½ÐµÐ¹ Ð½ÐµÑ‚!!\n";
 		return 0;
 	}else if (D == 0){
-		std::cout << "Îäèí êîðåíü!!\n";
+		std::cout << "ÐžÐ´Ð¸Ð½ ÐºÐ¾Ñ€ÐµÐ½ÑŒ!!\n";
 		std::cout << -1 * b / (2 * a) << endl;
 	}else {
-		std::cout << "Äâà êîðíÿ!!\n";
+		std::cout << "Ð”Ð²Ð° ÐºÐ¾Ñ€Ð½Ñ!!\n";
 		std::cout << "x1 = " << (-1 * b - sqrt(D)) / (2 * a)
 			<< " " << "x2 = " << (-1 * b - sqrt(D)) / (2 * a) << endl;
 	}
