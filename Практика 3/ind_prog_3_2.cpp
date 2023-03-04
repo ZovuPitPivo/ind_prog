@@ -7,7 +7,7 @@ rational::rational(int a, int b) {
 		this->b = b;
 		return true;
 	}else {
-		std::cout << "Òàêàÿ äğîáü íå ìîæåò ñóùåñòâîâàòü" << endl;
+		std::cout << "Ğ¢Ğ°ĞºĞ°Ñ Ğ´Ñ€Ğ¾Ğ±ÑŒ Ğ½Ğµ Ğ¼Ğ¾Ğ¶ĞµÑ‚ ÑÑƒÑ‰ĞµÑÑ‚Ğ²Ğ¾Ğ²Ğ°Ñ‚ÑŒ" << endl;
 		return false;
 	}
 	if (a > b) {
@@ -24,7 +24,7 @@ void rational::set(int a1, int b1) {
 		b = b1;
 	}
 	else {
-		std::cout << "Õóÿ òåáå, à íå äğîáü!!!" << endl;
+		std::cout << "Ğ¢Ğ°ĞºĞ¾Ğ¹ Ğ´Ñ€Ğ¾Ğ±Ğ¸ Ğ±Ñ‹Ñ‚ÑŒ Ğ½Ğµ Ğ¼Ğ¾Ğ¶ĞµÑ‚!!!" << endl;
 		return false;
 	}
 	if (a > b) {
