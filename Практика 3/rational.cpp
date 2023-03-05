@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ind_prog_3_2.h"
+#include "rational.h"
 
 rational::rational(int a, int b) {
 	if (b1 != 0) {

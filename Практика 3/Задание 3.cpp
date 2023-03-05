@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ind_prog_3_3.h"
+#include "rational.h"
 
 int main() {
 	rational a, b, c;

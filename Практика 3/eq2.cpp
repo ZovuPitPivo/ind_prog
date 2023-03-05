@@ -1,18 +1,18 @@
-#include "ind_prog_3_1.h"
+#include "eq2.h"
 #include <iostream>
 #include <cmath>
 
-kvad_ur::kvad_ur(double a1, double b1, double c1) {
+eq2::eq2(double a1, double b1, double c1) {
 	a = a1; b = b1; c = c1;
 	D = b * b - 4 * a * c;
 }
 
-void kvad_ur::set(double a1, double b1; double c1) {
+void eq2::set(double a1, double b1; double c1) {
 	a = a1; b = b1; c = c1;
 	D = b * b - 4 * a * c;
 }
 
-double kvad_ur::find_x() {
+double eq2::find_x() {
 	if (D < 0) {
 		std::cout << "Корней нет!!\n";
 		return 0;
@@ -26,6 +26,6 @@ double kvad_ur::find_x() {
 	}
 }
 
-double kvad_ur::find_y(double x1) {
+double eq2::find_y(double x1) {
 	return a * x1 * x1 + b * x1 + c;
 }
