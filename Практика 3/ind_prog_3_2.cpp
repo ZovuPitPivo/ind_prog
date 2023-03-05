@@ -24,7 +24,7 @@ void rational::set(int a1, int b1) {
 		b = b1;
 	}
 	else {
-		std::cout << "’у€ тебе, а не дробь!!!" << endl;
+		std::cout << "“акой дроби быть не может!!!" << endl;
 		return false;
 	}
 	if (a > b) {
