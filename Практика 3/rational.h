@@ -16,7 +16,7 @@ public:
 		a = cm.a;
 		b = cm.b;
 	}
-};
+
 
 rational operator+(rational& m1, rational& m2) {
 	rational res;
@@ -52,3 +52,4 @@ rational operator>(rational& m1, rational& m2) {
 		return w1 > w2;
 	}
 }
+};
